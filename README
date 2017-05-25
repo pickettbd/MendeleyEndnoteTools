@@ -1,0 +1,23 @@
+# README
+
+Mendeley Desktop's Microsoft (MS) Word Plugin is difficult to work with when
+compared with Endnote's Cite-While-You-Write Plugin. However, Mendeley Desktop
+provides a more preferential user experience than Endnote does for citation
+management and PDF annotation. Gratefully, Mendeley has provided an export
+feature to Endnote. Simply select the records that need to go to Endnote and
+select "Export" or command-E (macOS). Then ensure "Endnote" is the selected
+export format (as opposed to .bib or RIS format). A common problem with
+importing this output into Endnote is that the links to the PDFs are broken.
+For those who do not even need/want the PDFs in Endnote anyway, this problem is
+easily resolved by deleting the copies of the PDFs and removing the "links" to
+them in the XML file. This script automates that process. Exporting and
+importing must stil be done by hand.
+
+For directions on how to run this software, simply run with the -h flag. Note
+that the default file name for the XML file is "~/Desktop/My Collection.xml" and
+the default directory for PDFs is "~/Desktop/My Collection.Data". Thus, if you
+do not specify, -x and/or -d, the default values will be assumed.
+
+Please see the `LICENSE' file.
+
+Thank you.
