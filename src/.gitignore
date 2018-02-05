@@ -1,0 +1,6 @@
+*
+
+!.gitignore
+!Remove PDFs from Mendeley's Endnote Export.workflow/
+!endnote-temp.csl
+!removePDFsFromMendeleyEndoteExport.sh
